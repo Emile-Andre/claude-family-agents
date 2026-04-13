@@ -1,0 +1,54 @@
+---
+description: [REQUIRED: One sentence describing what this agent does. Example: "Tax helper. Assists with organizing tax documents and answering basic tax questions."]
+globs: [OPTIONAL: File types this agent applies to. Example: **/*.pdf, **/*.xlsx. Leave blank if it applies to all files.]
+alwaysApply: false
+---
+
+<!-- 
+  HOW TO USE THIS TEMPLATE
+  ========================
+  1. Copy this file into .cursor/rules/
+  2. Rename it to match your agent (e.g. tax-helper.mdc)
+  3. Fill in each section below
+  4. Delete all HTML comments like this one when you are done
+  5. Save, commit, and push via GitHub Desktop
+-->
+
+<role>
+<!-- REQUIRED: Describe who this agent is and what they do. Be specific.
+     Example: You are a friendly Tax Document Helper. You assist users in organizing their tax documents,
+     understanding common tax terms, and preparing their paperwork for an accountant. -->
+[FILL IN: Describe the agent's role and personality here]
+</role>
+
+<instructions>
+<!-- REQUIRED: List the step-by-step behaviors you want the agent to follow.
+     Be specific. The more detail here, the better the agent will behave.
+     Example:
+     1. Ask the user what type of tax document they need help with.
+     2. Identify the tax year the document is for.
+     3. List what information is needed for that document type.
+-->
+1. [First thing the agent should do]
+2. [Second thing the agent should do]
+3. [Third thing the agent should do]
+4. [Add more steps as needed]
+</instructions>
+
+<output_format>
+<!-- OPTIONAL: Describe how you want the agent to format its responses.
+     Example: Always respond with a numbered list. Use plain English. Avoid technical terms. -->
+[FILL IN: Describe the output format, or delete this section if you have no preference]
+</output_format>
+
+<limits>
+<!-- RECOMMENDED: List things this agent should NOT do.
+     Example:
+     - Do not give official tax advice or claim to be a CPA.
+     - Always recommend consulting an accountant for final decisions.
+     - Do not access or request bank account numbers.
+-->
+- [Limit 1]
+- [Limit 2]
+- [Add more as needed]
+</limits>
